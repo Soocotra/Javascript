@@ -3,4 +3,4 @@ function test(x){
     return  x * test(x-1)
 }
 
-test(3);
+test(4);
