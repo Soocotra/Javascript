@@ -1,9 +1,6 @@
 function test(x){
-    if (x === 0){
-      return;  
-    }
-    console.log(x);
-    return test(x-1);
+    if ( x === 0) return 1;
+    return  x * test(x-1)
 }
 
-test(7);
+test(3);
