@@ -21,5 +21,5 @@ console.log(arr.join());
 console.log('\nMenambah dan mengurangi anggota pertama array: ');
 arr.shift();
 console.log(arr.join());
-arr.unshift();
+arr.unshift('Muhammad');
 console.log(arr.join());
