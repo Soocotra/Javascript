@@ -1,6 +1,6 @@
 function test(x){
     console.log(x);
-    return tampilAngka(x-1);
+    return test(x-1);
     
 }
 
