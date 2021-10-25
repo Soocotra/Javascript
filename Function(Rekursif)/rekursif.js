@@ -1,7 +1,7 @@
 function test(x){
-    for ( var i = 0; i <= x;i++){
-        return i;
-    }
+    console.log(x);
+    return tampilAngka(x-1);
+    
 }
 
 test(7);
