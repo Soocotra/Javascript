@@ -1,7 +1,7 @@
-function test(x){
+function faktorial(x){
     if ( x === 0) return 1;
-    return  x * test(x-1);
+    return  x * faktorial(x-1);
 
 }
 
-test(4);
+console.log(faktorial(3));
