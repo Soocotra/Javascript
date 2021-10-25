@@ -23,3 +23,13 @@ arr.shift();
 console.log(arr.join());
 arr.unshift('Muhammad');
 console.log(arr.join());
+
+//Splice
+//Splice (IndexAwal, MauDiHapusBerapa, elemenBaru1, elemenbaru2, ....)
+arr.splice( 1, 2, 'Raul', 'Pradana' );
+
+//Slice
+//Slicec(awal(akan terbawa),akhir(tidak terbawa))
+
+let arr2 = arr.slice(1,3);
+console.log(arr2.join());
