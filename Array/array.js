@@ -22,11 +22,12 @@ console.log('\nMenambah dan mengurangi anggota pertama array: ');
 arr.shift();
 console.log(arr.join());
 arr.unshift('Muhammad');
-console.log(arr.join());
+console.log(arr.join() + "\n");
 
 //Splice
 //Splice (IndexAwal, MauDiHapusBerapa, elemenBaru1, elemenbaru2, ....)
 arr.splice( 1, 2, 'Raul', 'Pradana' );
+console.log(arr.join()) + "\n";
 
 //Slice
 //Slicec(awal(akan terbawa),akhir(tidak terbawa))
